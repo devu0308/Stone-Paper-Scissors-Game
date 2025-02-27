@@ -51,7 +51,7 @@ public:
                 (playerChoice == 3 and computerChoice == 2)){
             cout<<endl<<"Congratulations You Win!🥳"<<endl<<endl;
         }else{
-            cout<<endl<<"Computer Win Better Luck Next Time!😭"<<endl<<endl;
+            cout<<endl<<"Computer Win! Better Luck Next Time😭"<<endl<<endl;
         }
     }
 };
