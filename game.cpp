@@ -15,11 +15,11 @@ public:
     void getPlayerChoice(){
         cout<<"\nChoose the option:\n";
         cout<<" 1.Stone\n 2.Paper\n 3.Scissors\n";
-        cout<<"Enter Your Choice(1-3): ";
+        cout<<"Enter Your Choice(1-3):- ";
         cin>>playerChoice;
 
         if(playerChoice<1 or playerChoice>3){
-            cout<<"Please Choose Between 1-3"<<endl;
+            cout<<"Please Choose Between 1-3:- "<<endl;
         }
     }
 
@@ -45,7 +45,7 @@ public:
         cout<<"Computer Choose: "<<choiceToString(computerChoice)<<endl;
 
         if(playerChoice == computerChoice){
-            cout<<"Game is Draw"<<endl;
+            cout<<"Game is Draw 😐 "<<endl;
         }else if((playerChoice == 1 and computerChoice == 3) or
                 (playerChoice == 2 and computerChoice == 1) or
                 (playerChoice == 3 and computerChoice == 2)){
