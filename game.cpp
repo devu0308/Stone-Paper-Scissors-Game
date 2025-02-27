@@ -13,7 +13,7 @@ public:
     }
 
     void getPlayerChoice(){
-        cout<<"\nChoose the option:\n";
+        cout<<"\nChoose the option:- \n";
         cout<<" 1.Stone\n 2.Paper\n 3.Scissors\n";
         cout<<"Enter Your Choice(1-3):- ";
         cin>>playerChoice;
@@ -49,7 +49,7 @@ public:
         }else if((playerChoice == 1 and computerChoice == 3) or
                 (playerChoice == 2 and computerChoice == 1) or
                 (playerChoice == 3 and computerChoice == 2)){
-            cout<<endl<<"Congratulations You Win!🥳"<<endl<<endl;
+            cout<<endl<<"Congratulations You Win!... Hurray🥳"<<endl<<endl;
         }else{
             cout<<endl<<"Computer Win Better Luck Next Time!🥺"<<endl<<endl;
         }
