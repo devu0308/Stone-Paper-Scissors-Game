@@ -68,7 +68,7 @@ int main() {
         cin>>playAgain;
     }while(playAgain == 'Y' or playAgain == 'y');
 
-    cout<<"Thanks for Playing..👍"<<endl;
+    cout<<"Thanks for Playing😊.  Visit Again..."<<endl;
     cout<<"We hope to see you again"<<endl;
     return 0;
 }
